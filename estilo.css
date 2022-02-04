@@ -1,21 +1,25 @@
 div.columna1,
 div.columna2,
-div.columa3{
-           width: 33%;
+div.columna3 {
+           width: 30%;
+           padding: 10px;
+           
            float: left;
-           padding: 30px;
-    text-align: justify
+           text-align: justify;
+           text-align: justify;
+            color: rgb(61, 58, 58);
+
 }
 
 div.columna3 img{
- height: 200px;
+ height: 260px;
 }
 
 div.columna1 img{
-    height: 220px;
+    height: 200px;
 }
 div.columna2 img{
-    height: 210px;
+    height: 190px;
 }
 div.columna4,
 div.columna5 {
