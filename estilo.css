@@ -3,10 +3,20 @@ div.columna2,
 div.columa3{
            width: 33%;
            float: left;
+           padding: 30px;
+    text-align: justify
 }
 
+div.columna3 img{
+ height: 200px;
+}
 
-
+div.columna1 img{
+    height: 220px;
+}
+div.columna2 img{
+    height: 210px;
+}
 div.columna4,
 div.columna5 {
     width: 50%;
@@ -14,9 +24,17 @@ div.columna5 {
 
 }
 
-div.columna1,
-div.columna3,
+
 div.columna5{
     background-color: rgb(238, 211, 192);
 }
 
+div.formulario{
+    padding: 30px;
+    text-align: left;
+}
+
+#peso{
+    width: 2.5em;  height:1em;
+}
+ 
