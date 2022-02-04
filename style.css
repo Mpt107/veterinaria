@@ -7,8 +7,14 @@
       text-align: center;
 }
 
-h1{   
-font-size: xx-large;
+h1{ 
+text-align: center; 
+font-family:arial;
+font-weight: bold;
+font-size: 60px;
+color: rgb(182, 151, 131);
+text-shadow: -1px 0 #000, 0 1px #000,1px 0 #000,0 -1px #000;
+
 }
 
 html, body{
@@ -34,3 +40,4 @@ text-decoration: none;
 .ulclass a:hover{
       background-color: darkgrey;
 }
+
