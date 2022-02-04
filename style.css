@@ -1,0 +1,36 @@
+
+.main-header {
+      background-image: url("images/dogs.jpg") ;
+      background-size: cover;
+      padding-bottom: 200px;
+      padding-top: 15px;
+      text-align: center;
+}
+
+h1{   
+font-size: xx-large;
+}
+
+html, body{
+      margin: 0;
+      padding-block: 0;
+      background-color:#f2e7e6;
+}
+
+.ulclass li {
+display: inline-block;
+}
+.ulclass{
+      text-align: center;
+}
+
+
+.ulclass a{
+     padding: 1em;
+color: cornsilk;
+text-decoration: none; 
+}
+
+.ulclass a:hover{
+      background-color: darkgrey;
+}
