@@ -38,6 +38,7 @@
          Está esterilizado
          Peso
          Diagnóstico-->
+
          <form action="" method="get">
         <div>
              
@@ -55,15 +56,55 @@
              value=""
               min="2000-01-01" max="2022-02-03">
 
-              <br>
-             
-                
-
-
-
-
+              <br><br>
 
         </div>
+
+        <div>
+            <label for="Especie"> Especie</label >
+                <select name="Especie" id="Especie" >
+                <option label="perro" value="perro"> Perro  </option>
+                <option label="gato" value="gato"> Gato  </option>
+                <option label="otro" value="otro"> otro  </option>   
+        </div>
+         <div>
+        <label for= "Raza"> Raza </label>
+        <input type="text" name="raza" id="raza" placeholder=""/>
+          </div>
+        <br>
+
+        Genero
+        <br> 
+          <div>
+            
+            <label for= "femenino"> femenino </label>
+            <input type="radio" name="genero" id="femenino"  value="femenino"/> 
+            <label for= "masculino"> masculino </label>
+            <input type="radio" name="genero" id="masculino"  value="masculino"/> 
+        </div>
+       <br>
+        Esta esterilizado
+        <br>
+
+        <div>
+            <label for= "si"> si </label>
+            <input type="radio" name="esterilizado" id="si"  value="si"/> 
+            <label for= "no"> no </label>
+            <input type="radio" name="esterilizado" id="no"  value="no"/> 
+        </div>
+        <br>
+    
+        <div>
+
+            <label for= "peso"> Peso </label>
+            <input type="number" name="peso" id="peso"/>
+        </div>
+        <br>
+        Diagnostico
+        <br><br>
+        <div>
+        <textarea name="textarea" rows="10" cols="50">cuentanos por que vienes</textarea>
+         </div>
 
 
         <br>
