@@ -2,14 +2,28 @@ div.columna1,
 div.columna2,
 div.columna3 {
            width: 30%;
-           padding: 10px;
-           
+           padding-left: 20px;
+           padding-right: 20px;
            float: left;
            text-align: justify;
            text-align: justify;
             color: rgb(61, 58, 58);
 
 }
+
+div.columna4,
+div.columna5 {
+    width: 50%;
+    float: left;
+
+}
+div.columna6,
+div.columna7 {
+    width: 50%;
+    float: left;
+
+}
+
 
 div.columna3 img{
     max-width: 100%;
@@ -26,12 +40,6 @@ div.columna2 img{
     max-width: 100%; 
     max-height: 100%;
     display: block;
-}
-div.columna4,
-div.columna5 {
-    width: 50%;
-    float: left;
-
 }
 
 
