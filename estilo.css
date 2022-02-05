@@ -2,8 +2,8 @@ div.columna1,
 div.columna2,
 div.columna3 {
            width: 30%;
-           padding-left: 18px;
-           padding-right: 18px;
+           padding-left: 13px;
+           padding-right: 13px;
            float: left;
            text-align: justify;
            text-align: justify;
@@ -23,6 +23,11 @@ div.columna7 {
     float: left;
 
 }
+div.columna8
+    {
+     width: 50%;
+    float: left;
+} 
 
 
 div.columna3 img{
