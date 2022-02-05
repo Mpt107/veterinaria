@@ -11,6 +11,8 @@ div.columna3 {
 
 }
 
+
+
 div.columna4,
 div.columna5 {
     width: 50%;
@@ -23,11 +25,7 @@ div.columna7 {
     float: left;
 
 }
-div.columna8
-    {
-     width: 50%;
-    float: left;
-} 
+
 
 
 div.columna3 img{
@@ -101,3 +99,4 @@ div.formulario h2{
     
     width: 100%;
 }
+
