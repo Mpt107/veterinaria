@@ -118,3 +118,7 @@ div.servicios img{
       
 }
 
+div.tag1,
+div.tag3{
+    float:left
+}
