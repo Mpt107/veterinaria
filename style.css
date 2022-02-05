@@ -25,6 +25,9 @@ html, body{
 
 .ulclass li {
 display: inline-block;
+text-align: center;
+background-color: rgba(0,0,0,0.2);
+padding: 15px 0;
 }
 .ulclass{
       text-align: center;

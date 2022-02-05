@@ -36,9 +36,28 @@ div.columna5{
 div.formulario{
     padding: 30px;
     text-align: left;
+    color: rgb(63, 55, 55);
+}
+
+div.formulario h2{
+    color:rgb(182, 151, 131);
+    text-align: justify;
+    
 }
 
 #peso{
-    width: 2.5em;  height:1em;
+    width: 2.5em;  height:1,5em;
 }
- 
+#raza {
+    height: 1.5em;
+   }
+  #nombre{
+        height: 1.5em;
+    
+}
+#fechanac{
+    height: 1.5em;
+}
+#especie{
+    height: 1.5em;
+}
