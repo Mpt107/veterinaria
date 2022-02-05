@@ -17,13 +17,17 @@ div.columna4,
 div.columna5 {
     width: 50%;
     float: left;
+   
+    
 
 }
 div.columna6,
 div.columna7 {
-    width: 50%;
+    width: 45%;
     float: left;
-
+    color: rgb(63, 55, 55);
+    padding-left: 15px;
+    
 }
 
 
@@ -98,5 +102,19 @@ div.formulario h2{
 #textarea{
     
     width: 100%;
+}
+
+div.servicios{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:justify;
+    float:left;
+    color: rgb(63, 55, 55);
+}
+
+div.servicios img{
+     
+        float: right;
+      
 }
 
