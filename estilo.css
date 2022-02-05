@@ -52,9 +52,11 @@ div.columna2 img{
 
 div.columna5{
     background-color: rgb(238, 211, 192);
+    border-radius: 25px;
 }
 
 div.formulario{
+    
     padding: 30px;
     text-align: left;
     color: rgb(63, 55, 55);
@@ -122,3 +124,4 @@ div.tag1,
 div.tag3{
     float:left
 }
+

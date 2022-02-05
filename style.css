@@ -1,9 +1,10 @@
 
 .main-header {
       background-image: url("images/dogs.jpg") ;
-       padding-bottom: 15px;
+       padding-bottom: 150px;
       padding-top: 1px;
       text-align: center;
+  
 }
 
 h1 { 
@@ -42,3 +43,7 @@ text-decoration: none;
       background-color: darkgrey;
 }
 
+#logo {
+      float:left;
+      margin: 5px;;
+    }
