@@ -125,3 +125,49 @@ div.tag3{
     float:left
 }
 
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #b98888; 
+    padding-left: 30px; 
+  }
+  
+  .contact form{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+
+
+
+  .contact_form input {
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+#mensaje{
+    width: 408px;
+    height: 80px;
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+}

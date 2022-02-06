@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
-    <meta charset= "utf-8">
-    <link rel="stylesheet" href="style.css">
+       <meta charset= "utf-8">
+       <link rel="stylesheet" href="style.css">
+
       </head> 
       
       <header class="main-header">
+        <!--aqui esta la barra de navegacion-->
          <nav>
              <ul class="ulclass">
                  <li><a href="index.html">SERVICIOS</a></li>
@@ -99,18 +101,18 @@
               <div class="formulario">
             
 
-               <h2>Ingreso de pacientes</h2>
+              <strong> <h1>Ingreso de pacientes</h1></strong>
                  <br> <br>
 
         <form action="" method="get">
        <div>
             
-           <label for= "nombre"> Nombre paciente </label>
-           <input type="text" name="nombre" id="nombrepaciente" placeholder="Ingrese nombre paciente" required/>
+           <label for= "nombre"> Nombre paciente<span class="obligatorio">*</span> </label>
+           <input type="text" name="nombre" required="obligatorio"id="nombrepaciente" placeholder="Ingrese nombre paciente" required/>
                <br> <br>
            
-            <label for= "nombre"> Nombre Tutor </label>
-            <input type="text" name="nombre" id="nombretutor" placeholder="Ingrese nombre tutor" required/>
+            <label for= "nombre"> Nombre Tutor <span class="obligatorio">*</span></label>
+            <input type="text" name="nombre"required="obligatorio" id="nombretutor" placeholder="Ingrese nombre tutor" required/>
                <br> <br>
 
            <label for="fechanac">Fecha nacimiento:</label>
@@ -164,10 +166,15 @@
              Diagnostico
              <br><br>
               <div>
+              <label for="mensaje">Mensaje<span class="obligatorio">*</span></label>
               <textarea name="textarea" rows="6" cols="" id="textarea"placeholder="¿Cuentanos por que vienes?"></textarea>
               </div>
 
+              <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+              </p> 
 
+              
              <br>
               <button type="reset">LIMPIAR</button>
 
