@@ -143,10 +143,14 @@ div.foto{
     border-color: #ab4493; 
 }
 
- #nombre{
+ #nombrepaciente{
      width: 100%;
      height: 40px;
  }
+ #nombretutor{
+    width: 100%;
+    height: 40px;
+}
  #raza{
     width: 100%;
     height: 40px;
