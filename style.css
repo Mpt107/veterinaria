@@ -13,8 +13,8 @@ h1 {
       font-family:arial;
       font-weight:bold;
       font-size: 30px;
-      color: white;
-      text-shadow: -0.8px 0 rgb(107, 105, 105), 0 1px rgb(97, 95, 95),1px 0 rgb(92, 88, 88),0 -0.8px #000;
+      color: rgba(77, 62, 165, 0.719);
+      text-shadow: -0.2px 0 rgb(107, 105, 105), 0 1px rgb(97, 95, 95),1px 0 rgb(92, 88, 88),0 -0.2px rgb(253, 248, 248);
 }
 
 html, body{
@@ -22,10 +22,7 @@ html, body{
      margin-left: 15px;
     margin-top: 0;
     margin-right: 15px;
-
-
-      padding-block: 0;
-      background-color:rgba(248,244,241,255);
+  background-color:rgba(248,244,241,255);
 }
 
 .ulclass li {

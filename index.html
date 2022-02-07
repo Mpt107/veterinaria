@@ -89,7 +89,6 @@
               <br>
 
               
-
             </div>
 
 
@@ -101,19 +100,21 @@
               <div class="formulario">
             
 
-              <strong> <h1>Ingreso de pacientes</h1></strong>
-                 <br> <br>
-
+              <strong> <h1>Bienvenidos a Clinica Boroschek!</h1></strong>
+                      <h3>  Ingreso de pacientes</h3>
+  
         <form action="" method="get">
+
        <div>
-            
+          <div class="stiloform">
            <label for= "nombre"> Nombre paciente<span class="obligatorio">*</span> </label>
-           <input type="text" name="nombre" required="obligatorio"id="nombrepaciente" placeholder="Ingrese nombre paciente" required/>
+           <input type="text" name="nombre" required="obligatorio"id="nombre" placeholder="Ingrese nombre paciente" required/>
                <br> <br>
            
             <label for= "nombre"> Nombre Tutor <span class="obligatorio">*</span></label>
-            <input type="text" name="nombre"required="obligatorio" id="nombretutor" placeholder="Ingrese nombre tutor" required/>
-               <br> <br>
+            <input type="text" name="nombre"required="obligatorio" id="nombre" placeholder="Ingrese nombre tutor" required/>
+              
+            <br> <br>
 
            <label for="fechanac">Fecha nacimiento:</label>
 
@@ -121,11 +122,15 @@
             value=""
              min="2000-01-01" max="2022-02-03">
 
+         </div>
+
+
              <br><br>
 
             </div>
             Especie
             <div>
+              <label for="especie"></label>
             <select name="Especie" id="especie">
             <option value="Perro">Perro</option>
             <option value="Gato" >Gato</option>
@@ -135,27 +140,33 @@
              </div>
               <br>
 
-            Raza <div> <input type="text" name="raza" id="raza"> </div>
+            Raza 
+            <div>
+               <label for="raza"></label>
+               <input type="text" name="raza" id="raza"> </div>
               <br>
 
-            Genero 
-               <br>
+              Genero 
+              <br>
+             <div>
+               <label for="genero"></label>
+             <input type="radio" name="genero" value="masculino" > Masculino
+             <br>
+             <input type="radio" name="genero" value="femenino"> Femenino
+             </div>
+      
+             <br>
+              Esta esterilizado
+              <br>
+
               <div>
-              <input type="radio" name="genero" value="masculino" > Masculino
-              <br>
-              <input type="radio" name="genero" value="femenino"> Femenino
-              </div>
-       
-              <br>
-               Esta esterilizado
-               <br>
-
-               <div>
-           <input type="radio" name="esterilizado"   value="si"/> Si
-          
-           <input type="radio" name="esterilizado"   value="no"/> No
-              </div>
-              <br>
+                <label for="esterilizado"></label>
+          <input type="radio" name="esterilizado"   value="si"/> Si
+          <br>
+         
+          <input type="radio" name="esterilizado"   value="no"/> No
+             </div>
+             <br>
    
              <div>
 
@@ -163,18 +174,18 @@
              <input type="number" name="peso" id="peso" value="peso"/> kg
              </div>
               <br>
-             Diagnostico
+             Razon de visita
              <br><br>
               <div>
-              <label for="mensaje">Mensaje<span class="obligatorio">*</span></label>
-              <textarea name="textarea" rows="6" cols="" id="textarea"placeholder="¿Cuentanos por que vienes?"></textarea>
+              <label for="mensaje">
+              <textarea name="textarea" rows="" cols="" id="textarea"placeholder="¿Cuentanos por que vienes?"></textarea>
               </div>
 
               <p class="aviso">
                 <span class="obligatorio"> * </span>los campos son obligatorios.
               </p> 
 
-              
+           
              <br>
               <button type="reset">LIMPIAR</button>
 
